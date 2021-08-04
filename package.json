@@ -1,0 +1,66 @@
+{
+  "name": "pocketmd-nextjs-tech-challenge",
+  "version": "1.0.0",
+  "description": "Next.js/ApolloClient starter.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PocketMD/nextjs-apollo-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PocketMD/nextjs-apollo-starter/issues",
+    "email": "scott@pocketmd.ca"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.1",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-error": "^1.1.13",
+    "deepmerge": "^4.2.2",
+    "framer-motion": "^4.1.17",
+    "graphql": "^15.5.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "js-cookie": "^3.0.0",
+    "load-script": "^1.0.0",
+    "lodash": "^4.17.21",
+    "next": "^11.0.1",
+    "next-google-fonts": "^2.2.0",
+    "next-with-apollo": "^5.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.12.2",
+    "styled-components": "^5.3.0"
+  },
+  "keywords": [
+    "nextjs",
+    "nextjs layout",
+    "react",
+    "boilerplate",
+    "starter project"
+  ],
+  "author": "Scott Agirs Neminskis - PocketMD",
+  "license": "ISC",
+  "devDependencies": {
+    "@ijsto/eslint-config": "^4.1.6",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.2"
+  }
+}
